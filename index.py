@@ -274,63 +274,126 @@ root.config(bg='#8a37cc')
 
 #---------------------- Frame 8 / Home Funcionaio/ Cadastrar usuario ----------------------#
 
-fr8 = LabelFrame(root).grid()
+# fr8 = LabelFrame(root).grid()
 
-Title_fr8 = HTMLLabel(fr8, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Home Funcionario</h1>",
-                      background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=15)
+# Title_fr8 = HTMLLabel(fr8, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Home Funcionario</h1>",
+#                       background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=15)
 
-voltar_fr8 = Button(fr8, text=" Voltar ", bg="#eb8334", fg="#fff",
-                    width=18, height=2).place(bordermode=OUTSIDE, x=480, y=28)
+# voltar_fr8 = Button(fr8, text=" Voltar ", bg="#eb8334", fg="#fff",
+#                     width=18, height=2).place(bordermode=OUTSIDE, x=480, y=28)
 
-logout_fr8 = Button(fr8, text=" Logout ", bg="#eb8334", fg="#fff",
-                    width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
+# logout_fr8 = Button(fr8, text=" Logout ", bg="#eb8334", fg="#fff",
+#                     width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
 
-logar_fr8 = Button(fr8, text=" Login Funconario ", bg="#eb8334", fg="#fff",
-                   width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
+# logar_fr8 = Button(fr8, text=" Login Usuario  ", bg="#eb8334", fg="#fff",
+#                    width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
 
-about_fr8 = HTMLLabel(fr8, html="<h5 style ='color:#f5f5f5;font:Mongolian Baiti;'>Complete todos os campos a seguir paracadastrar um novo usuario </h5>",
-                      background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=103)
+# about_fr8 = HTMLLabel(fr8, html="<h5 style ='color:#f5f5f5;font:Mongolian Baiti;'>Complete todos os campos a seguir paracadastrar um novo usuario </h5>",
+#                       background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=103)
 
-form_fr8 = HTMLLabel(fr8, html="<img src='fr2.png'>", width=112, height=27,
-                     background='#8a37cc').place(bordermode=OUTSIDE, x=40, y=143)
+# form_fr8 = HTMLLabel(fr8, html="<img src='fr2.png'>", width=112, height=27,
+#                      background='#8a37cc').place(bordermode=OUTSIDE, x=40, y=143)
 
-# Entrada de dados
+# # Entrada de dados
 
-nome_fr8 = Entry(fr8, bg="#eb8334", width=55, font='Arial 18').place(
-    bordermode=OUTSIDE, x=140, y=236)
+# nome_fr8 = Entry(fr8, bg="#eb8334", width=55, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=140, y=236)
 
-cpf_fr8 = Entry(fr8, bg="#eb8334", width=27, font='Arial 18').place(
-    bordermode=OUTSIDE, x=140, y=285)
+# cpf_fr8 = Entry(fr8, bg="#eb8334", width=27, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=140, y=285)
 
-date_fr8 = Entry(fr8, bg="#eb8334", width=20, font='Arial 18').place(
-    bordermode=OUTSIDE, x=596, y=285)
+# date_fr8 = Entry(fr8, bg="#eb8334", width=20, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=596, y=285)
 
-civil_fr8 = Entry(fr8, bg="#eb8334", width=24, font='Arial 18').place(
-    bordermode=OUTSIDE, x=178, y=339)
+# civil_fr8 = Entry(fr8, bg="#eb8334", width=24, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=178, y=339)
 
-tel_fr8 = Entry(fr8, bg="#eb8334", width=20, font='Arial 18').place(
-    bordermode=OUTSIDE, x=596, y=339)
+# tel_fr8 = Entry(fr8, bg="#eb8334", width=20, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=596, y=339)
 
-logradouro_fr8 = Entry(fr8, bg="#eb8334", width=24, font='Arial 18').place(
-    bordermode=OUTSIDE, x=178, y=391)
+# logradouro_fr8 = Entry(fr8, bg="#eb8334", width=24, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=178, y=391)
 
-num_fr8 = Entry(fr8, bg="#eb8334", width=23, font='Arial 18').place(
-    bordermode=OUTSIDE, x=558, y=391)
+# num_fr8 = Entry(fr8, bg="#eb8334", width=23, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=558, y=391)
 
-bairro_fr8 = Entry(fr8, bg="#eb8334", width=27, font='Arial 18').place(
-    bordermode=OUTSIDE, x=140, y=443)
+# bairro_fr8 = Entry(fr8, bg="#eb8334", width=27, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=140, y=443)
 
-city_fr8 = Entry(fr8, bg="#eb8334", width=22, font='Arial 18').place(
-    bordermode=OUTSIDE, x=570, y=442)
+# city_fr8 = Entry(fr8, bg="#eb8334", width=22, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=570, y=442)
 
-email_fr8 = Entry(fr8, bg="#eb8334", width=27, font='Arial 18').place(
-    bordermode=OUTSIDE, x=140, y=500)
+# email_fr8 = Entry(fr8, bg="#eb8334", width=27, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=140, y=500)
 
-passw_fr8 = Entry(fr8, bg="#eb8334", width=22, font='Arial 18').place(
-    bordermode=OUTSIDE, x=570, y=500)
+# passw_fr8 = Entry(fr8, bg="#eb8334", width=22, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=570, y=500)
 
-cadastrar_fr8 = Button(fr8,  text=" Cadastrar ", bg="#eb8334", fg="#fff", font="Arial 15",
-                       width=18, height=2).place(bordermode=OUTSIDE, x=653, y=150)
+# cadastrar_fr8 = Button(fr8,  text=" Cadastrar ", bg="#eb8334", fg="#fff", font="Arial 15",
+#                        width=18, height=2).place(bordermode=OUTSIDE, x=653, y=150)
+
+
+#---------------------- Frame 9 / Home Funcionaio/ Mudar dados pessoais ----------------------#
+
+# fr9 = LabelFrame(root).grid()
+
+# Title_fr9 = HTMLLabel(fr9, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Home Funcionario</h1>",
+#                       background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=15)
+
+# voltar_fr9 = Button(fr9, text=" Voltar ", bg="#eb8334", fg="#fff",
+#                     width=18, height=2).place(bordermode=OUTSIDE, x=480, y=28)
+
+# logout_fr9 = Button(fr9, text=" Logout ", bg="#eb8334", fg="#fff",
+#                     width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
+
+# logar_fr9 = Button(fr9, text=" Login Usuario  ", bg="#eb8334", fg="#fff",
+#                    width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
+
+# about_fr9 = HTMLLabel(fr9, html="<h5 style ='color:#f5f5f5;font:Mongolian Baiti;'> Atualize seus dados a seguir </h5>",
+#                       background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=103)
+
+# form_fr9 = HTMLLabel(fr9, html="<img src='fr2.png'>", width=112, height=27,
+#                      background='#8a37cc').place(bordermode=OUTSIDE, x=40, y=143)
+
+# # Entrada de dados
+
+# nome_fr9 = Entry(fr9, bg="#eb8334", width=55, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=140, y=236)
+
+# cpf_fr9 = Entry(fr9, bg="#eb8334", width=27, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=140, y=285)
+
+# date_fr9 = Entry(fr9, bg="#eb8334", width=20, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=596, y=285)
+
+# civil_fr9 = Entry(fr9, bg="#eb8334", width=24, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=178, y=339)
+
+# tel_fr9 = Entry(fr9, bg="#eb8334", width=20, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=596, y=339)
+
+# logradouro_fr9 = Entry(fr9, bg="#eb8334", width=24, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=178, y=391)
+
+# num_fr9 = Entry(fr9, bg="#eb8334", width=23, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=558, y=391)
+
+# bairro_fr9 = Entry(fr9, bg="#eb8334", width=27, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=140, y=443)
+
+# city_fr9 = Entry(fr9, bg="#eb8334", width=22, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=570, y=442)
+
+# email_fr9 = Entry(fr9, bg="#eb8334", width=27, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=140, y=500)
+
+# passw_fr9 = Entry(fr9, bg="#eb8334", width=22, font='Arial 18').place(
+#     bordermode=OUTSIDE, x=570, y=500)
+
+# att_fr9 = Button(fr9,  text=" Atualizar", bg="#eb8334", fg="#fff", font="Arial 15",
+#                        width=18, height=2).place(bordermode=OUTSIDE, x=653, y=150)
+
+
 
 # falta criar tela de funcionalidade de usuario deposito saque transferencia e extrato
 # falta criar tela de troca de informações do funcionario para ele mesmo
