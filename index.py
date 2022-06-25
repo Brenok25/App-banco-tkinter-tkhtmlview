@@ -97,4 +97,105 @@ root.config(bg='#8a37cc')
 # entra_fr3 = Button(fr3, text=" Entrar ", font=('Mongolian Baiti', '15'), bg="#eb8334",
 #                    fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=307, y=455)
 
+#---------------------- Frame 4 / Home Funcionario ----------------------#
+
+# fr4 = LabelFrame(root).grid()
+
+# Title_fr4 = HTMLLabel(fr4, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Home Funcionario</h1>",
+#                       background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=15)
+
+# voltar_fr4 = Button(fr4, text=" Voltar ", bg="#eb8334", fg="#fff",
+#                     width=18, height=2).place(bordermode=OUTSIDE, x=480, y=28)
+
+# cadastre_fr4 = Button(fr4, text=" Cadastre-se ", bg="#eb8334", fg="#fff",
+#                       width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
+
+# logar_fr4 = Button(fr4, text=" Login Usuario ", bg="#eb8334", fg="#fff",
+#                   width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
+
+# cadastrar_user_fr4 = Button(fr4, text=" Cadastrar user ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+#                             fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=150)
+
+# deletar_user_fr4 = Button(fr4, text=" Excluir user ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+#                           fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=300)
+
+# trocar_infos_fr4 = Button(fr4, text=" Mudar informações ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+#                           fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=450)
+
+# about1_fr4 = HTMLLabel(fr4, html="<h2 style ='color:#f5f5f5;font:Mongolian Baiti;'>Informações do Funcionario</h2>",
+#                        background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=150
+
+# nome_fr4 = HTMLLabel(fr4, html="<p style ='color:#f5f5f5;font:Mongolian Baiti;'>Nome: Breno Kauan</p>",
+#                      background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=230)
+
+# date_fr4 = HTMLLabel(fr4, html="<p style ='color:#f5f5f5;font:Mongolian Baiti;'>Data de Nascimento: 25/04/2003</p>",
+#                      background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=270)
+
+# func_fr4 = HTMLLabel(fr4, html="<p style ='color:#f5f5f5;font:Mongolian Baiti;'>Função: Gerenciador de atividade</p>",
+#                      background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=310)
+
+# cpf_fr4 = HTMLLabel(fr4, html="<p style ='color:#f5f5f5;font:Mongolian Baiti;'>CPF: 123.123.123-44</p>",
+#                      background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=350)
+
+# email_fr4 = HTMLLabel(fr4, html="<p style ='color:#f5f5f5;font:Mongolian Baiti;'>Email: Serhumano321@gamil.com</p>",
+#                       background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=390)
+
+# city_fr4 = HTMLLabel(fr4, html="<p style ='color:#f5f5f5;font:Mongolian Baiti;'>Cidade: Pouso Alegre </p>",
+#                      background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=430)
+
+# uf_fr4 = HTMLLabel(fr4, html="<p style ='color:#f5f5f5;font:Mongolian Baiti;'>UF: Minas Gerais </p>",
+#                      background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=470)
+
+#---------------------- Frame 4 / Home Funcionario ----------------------#
+
+# fr5 = LabelFrame(root).grid()
+
+# Title_fr5 = HTMLLabel(fr5, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Home Usuario</h1>",
+#                       background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=15)
+
+# voltar_fr5 = Button(fr5, text=" Voltar ", bg="#eb8334", fg="#fff",
+#                     width=18, height=2).place(bordermode=OUTSIDE, x=480, y=28)
+
+# cadastre_fr5 = Button(fr5, text=" Cadastre-se ", bg="#eb8334", fg="#fff",
+#                       width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
+
+# logar_fr5 = Button(fr5, text=" Excluir Conta ", bg="#eb8334", fg="#fff",
+#                    width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
+
+# deposito_fr5 = Button(fr5, text=" Deposito ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+#                       fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=150)
+
+# saque_fr5 = Button(fr5, text=" Saque ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+#                    fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=250)
+
+# trasferencia_fr5 = Button(fr5, text=" Trasferencia ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+#                           fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=350)
+
+# extrato_fr5 = Button(fr5, text=" Extrato ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+#                      fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=450)
+
+# about1_fr5 = HTMLLabel(fr5, html="<h2 style ='color:#f5f5f5;font:Mongolian Baiti;'>Informações do Usúario</h2>",
+#                        background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=150)
+
+# nome_fr5 = HTMLLabel(fr5, html="<p style ='color:#f5f5f5;font:Mongolian Baiti;'> Nome do User </p>",
+#                      background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=230)
+
+# date_fr5 = HTMLLabel(fr5, html="<p style ='color:#f5f5f5;font:Mongolian Baiti;'>Data de Nascimento do user</p>",
+#                      background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=270)
+
+# cpf_fr5 = HTMLLabel(fr5, html="<p style ='color:#f5f5f5;font:Mongolian Baiti;'> Cpf do user </p>",
+#                     background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=310)
+
+# logradouro_fr5 = HTMLLabel(fr5, html="<p style ='color:#f5f5f5;font:Mongolian Baiti;'> Logradouro do user </p>",
+#                            background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=350)
+
+# city_fr5 = HTMLLabel(fr5, html="<p style ='color:#f5f5f5;font:Mongolian Baiti;'> Cidade do user </p>",
+#                            background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=390)
+
+# email_fr5 = HTMLLabel(fr5, html="<p style ='color:#f5f5f5;font:Mongolian Baiti;'> Email do user </p>",
+#                       background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=430)
+
+# saldo_fr5 = HTMLLabel(fr5, html="<p style ='color:#f5f5f5;font:Mongolian Baiti;'> Saldo do user </p>",
+#                       background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=470)
+
 root.mainloop()
