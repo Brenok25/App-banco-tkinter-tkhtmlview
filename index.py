@@ -80,7 +80,7 @@ root.config(bg='#8a37cc')
 # cadastre_fr3 = Button(fr3, text=" Cadastre-se ", bg="#eb8334", fg="#fff",
 #                       width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
 
-# func_fr3 = Button(fr3, text=" Área funcionario ", bg="#eb8334", fg="#fff",
+# func_fr3 = Button(fr3, text="  ", bg="#eb8334", fg="#fff",
 #                   width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
 
 # form_fr3 = HTMLLabel(fr3, html="<img src='fr3.png'>", width=112, height=27,
@@ -199,38 +199,73 @@ root.config(bg='#8a37cc')
 # saldo_fr5 = HTMLLabel(fr5, html="<p style ='color:#f5f5f5;font:Mongolian Baiti;'> Saldo do user </p>",
 #                       background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=470)
 
-#---------------------- Frame 6 / Home funcionario/ cadastrar usuario ----------------------#
+# #---------------------- Frame 6 / Home funcionario/ Excluir usuario ----------------------#
 
-fr6 = LabelFrame(root).grid()
+# fr6 = LabelFrame(root).grid()
 
-Title_fr6 = HTMLLabel(fr6, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Home Funcionario</h1>",
+# Title_fr6 = HTMLLabel(fr6, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Home Funcionario</h1>",
+#                       background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=15)
+
+# voltar_fr6 = Button(fr6, text=" Voltar ", bg="#eb8334", fg="#fff",
+#                     width=18, height=2).place(bordermode=OUTSIDE, x=480, y=28)
+
+# logout_fr6 = Button(fr6, text=" Logout ", bg="#eb8334", fg="#fff",
+#                     width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
+
+# logar_fr6 = Button(fr6, text=" Login Usuario ", bg="#eb8334", fg="#fff",
+#                    width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
+
+# about1_fr6 = HTMLLabel(fr6, html="<h2 style ='color:#f5f5f5;font:Mongolian Baiti;'>Excluir Usúario</h2>",
+#                        background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=150)
+
+# form_fr6 = HTMLLabel(fr6, html="<img src='fr6_fr7.png'>", width=112, height=27,
+#                      background='#8a37cc').place(bordermode=OUTSIDE, x=220, y=120)
+
+# cpf_user_fr6 = Entry(fr6, bg="#eb8334", width=17, font='Arial 25').place(
+#     bordermode=OUTSIDE, x=285, y=248)
+
+# passw_func__fr6 = Entry(fr6, bg="#eb8334", width=17, font='Arial 25').place(
+#     bordermode=OUTSIDE, x=285, y=362)
+
+# show_fr6 = Button(fr6, text='👁', font=('Mongolian Baiti', "18", "bold"), bg='#eb8334', fg='#fff').place(
+#     bordermode=OUTSIDE, x=605, y=360)
+
+# entra_fr6 = Button(fr6, text=" Excluir ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+#                    fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=300, y=455)
+
+
+#---------------------- Frame 7 / Home Usuario/ Excluir usuario ----------------------#
+
+fr7 = LabelFrame(root).grid()
+
+Title_fr7 = HTMLLabel(fr7, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Home Usuario</h1>",
                       background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=15)
 
-voltar_fr6 = Button(fr6, text=" Voltar ", bg="#eb8334", fg="#fff",
+voltar_fr7 = Button(fr7, text=" Voltar ", bg="#eb8334", fg="#fff",
                     width=18, height=2).place(bordermode=OUTSIDE, x=480, y=28)
 
-logout_fr6 = Button(fr6, text=" Logout ", bg="#eb8334", fg="#fff",
+logout_fr7 = Button(fr7, text=" Logout ", bg="#eb8334", fg="#fff",
                     width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
 
-logar_fr6 = Button(fr6, text=" Login Usuario ", bg="#eb8334", fg="#fff",
+func_fr7 = Button(fr7, text=" Área funcionario ", bg="#eb8334", fg="#fff",
                    width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
 
-about1_fr6 = HTMLLabel(fr6, html="<h2 style ='color:#f5f5f5;font:Mongolian Baiti;'>Excluir Usúario</h2>",
+about1_fr7 = HTMLLabel(fr7, html="<h2 style ='color:#f5f5f5;font:Mongolian Baiti;'>Excluir Usúario</h2>",
                        background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=150)
 
-form_fr6 = HTMLLabel(fr6, html="<img src='fr6.png'>", width=112, height=27,
+form_fr7 = HTMLLabel(fr7, html="<img src='fr6_fr7.png'>", width=112, height=27,
                      background='#8a37cc').place(bordermode=OUTSIDE, x=220, y=120)
 
-cpf_user_fr6 = Entry(fr6, bg="#eb8334", width=17, font='Arial 25').place(
+cpf_user_fr7 = Entry(fr7, bg="#eb8334", width=17, font='Arial 25').place(
     bordermode=OUTSIDE, x=285, y=248)
 
-passw_func__fr6 = Entry(fr6, bg="#eb8334", width=17, font='Arial 25').place(
+passw_func__fr7 = Entry(fr7, bg="#eb8334", width=17, font='Arial 25').place(
     bordermode=OUTSIDE, x=285, y=362)
 
-show_fr6 = Button(fr6, text='👁', font=('Mongolian Baiti', "18", "bold"), bg='#eb8334', fg='#fff').place(
+show_fr7 = Button(fr7, text='👁', font=('Mongolian Baiti', "18", "bold"), bg='#eb8334', fg='#fff').place(
     bordermode=OUTSIDE, x=605, y=360)
 
-entra_fr6 = Button(fr6, text=" Entrar ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+entra_fr7 = Button(fr7, text=" Excluir ", font=('Mongolian Baiti', '15'), bg="#eb8334",
                    fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=300, y=455)
 
 
