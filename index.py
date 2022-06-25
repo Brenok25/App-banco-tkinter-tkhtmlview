@@ -39,7 +39,7 @@ root.config(bg='#8a37cc')
 # logar_fr2 = Button(fr2, text=" Faça Login ", bg="#eb8334", fg="#fff",width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
 # func_fr2 = Button(fr2, text=" Área funcionario ", bg="#eb8334", fg="#fff",width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
 
-# info_fr2 = HTMLLabel(fr2, html="<h5 style ='color:#f5f5f5;font:Mongolian Baiti;'>Complete todos os campos a seguir </h5>",background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=103)
+# about_fr2 = HTMLLabel(fr2, html="<h5 style ='color:#f5f5f5;font:Mongolian Baiti;'>Complete todos os campos a seguir </h5>",background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=103)
 
 # form_fr2 = HTMLLabel(fr2, html="<img src='fr2.png'>", width=112, height=27,background='#8a37cc').place(bordermode=OUTSIDE, x=40, y=143)
 
@@ -66,6 +66,9 @@ root.config(bg='#8a37cc')
 # email_fr2 = Entry(fr2, bg="#eb8334",width=27, font='Arial 18').place(bordermode=OUTSIDE, x=140, y=500)
 
 # passw_fr2 = Entry(fr2, bg="#eb8334",width=22, font='Arial 18').place(bordermode=OUTSIDE, x=570, y=500)
+
+# cadastrar_fr2 = Button(fr8,  text=" Cadastrar ", bg="#eb8334", fg="#fff", font="Arial 15",
+#                        width=18, height=2).place(bordermode=OUTSIDE, x=653, y=150)
 
 #---------------------- Frame 3 / Login ----------------------#
 
@@ -236,44 +239,102 @@ root.config(bg='#8a37cc')
 
 #---------------------- Frame 7 / Home Usuario/ Excluir usuario ----------------------#
 
-fr7 = LabelFrame(root).grid()
+# fr7 = LabelFrame(root).grid()
 
-Title_fr7 = HTMLLabel(fr7, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Home Usuario</h1>",
+# Title_fr7 = HTMLLabel(fr7, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Home Usuario</h1>",
+#                       background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=15)
+
+# voltar_fr7 = Button(fr7, text=" Voltar ", bg="#eb8334", fg="#fff",
+#                     width=18, height=2).place(bordermode=OUTSIDE, x=480, y=28)
+
+# logout_fr7 = Button(fr7, text=" Logout ", bg="#eb8334", fg="#fff",
+#                     width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
+
+# func_fr7 = Button(fr7, text=" Área funcionario ", bg="#eb8334", fg="#fff",
+#                    width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
+
+# about1_fr7 = HTMLLabel(fr7, html="<h2 style ='color:#f5f5f5;font:Mongolian Baiti;'>Excluir Usúario</h2>",
+#                        background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=150)
+
+# form_fr7 = HTMLLabel(fr7, html="<img src='fr6_fr7.png'>", width=112, height=27,
+#                      background='#8a37cc').place(bordermode=OUTSIDE, x=220, y=120)
+
+# cpf_user_fr7 = Entry(fr7, bg="#eb8334", width=17, font='Arial 25').place(
+#     bordermode=OUTSIDE, x=285, y=248)
+
+# passw_func__fr7 = Entry(fr7, bg="#eb8334", width=17, font='Arial 25').place(
+#     bordermode=OUTSIDE, x=285, y=362)
+
+# show_fr7 = Button(fr7, text='👁', font=('Mongolian Baiti', "18", "bold"), bg='#eb8334', fg='#fff').place(
+#     bordermode=OUTSIDE, x=605, y=360)
+
+# entra_fr7 = Button(fr7, text=" Excluir ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+#                    fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=300, y=455)
+
+
+#---------------------- Frame 8 / Home Funcionaio/ Cadastrar usuario ----------------------#
+
+fr8 = LabelFrame(root).grid()
+
+Title_fr8 = HTMLLabel(fr8, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Home Funcionario</h1>",
                       background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=15)
 
-voltar_fr7 = Button(fr7, text=" Voltar ", bg="#eb8334", fg="#fff",
+voltar_fr8 = Button(fr8, text=" Voltar ", bg="#eb8334", fg="#fff",
                     width=18, height=2).place(bordermode=OUTSIDE, x=480, y=28)
 
-logout_fr7 = Button(fr7, text=" Logout ", bg="#eb8334", fg="#fff",
+logout_fr8 = Button(fr8, text=" Logout ", bg="#eb8334", fg="#fff",
                     width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
 
-func_fr7 = Button(fr7, text=" Área funcionario ", bg="#eb8334", fg="#fff",
+logar_fr8 = Button(fr8, text=" Login Funconario ", bg="#eb8334", fg="#fff",
                    width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
 
-about1_fr7 = HTMLLabel(fr7, html="<h2 style ='color:#f5f5f5;font:Mongolian Baiti;'>Excluir Usúario</h2>",
-                       background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=150)
+about_fr8 = HTMLLabel(fr8, html="<h5 style ='color:#f5f5f5;font:Mongolian Baiti;'>Complete todos os campos a seguir paracadastrar um novo usuario </h5>",
+                      background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=103)
 
-form_fr7 = HTMLLabel(fr7, html="<img src='fr6_fr7.png'>", width=112, height=27,
-                     background='#8a37cc').place(bordermode=OUTSIDE, x=220, y=120)
+form_fr8 = HTMLLabel(fr8, html="<img src='fr2.png'>", width=112, height=27,
+                     background='#8a37cc').place(bordermode=OUTSIDE, x=40, y=143)
 
-cpf_user_fr7 = Entry(fr7, bg="#eb8334", width=17, font='Arial 25').place(
-    bordermode=OUTSIDE, x=285, y=248)
+# Entrada de dados
 
-passw_func__fr7 = Entry(fr7, bg="#eb8334", width=17, font='Arial 25').place(
-    bordermode=OUTSIDE, x=285, y=362)
+nome_fr8 = Entry(fr8, bg="#eb8334", width=55, font='Arial 18').place(
+    bordermode=OUTSIDE, x=140, y=236)
 
-show_fr7 = Button(fr7, text='👁', font=('Mongolian Baiti', "18", "bold"), bg='#eb8334', fg='#fff').place(
-    bordermode=OUTSIDE, x=605, y=360)
+cpf_fr8 = Entry(fr8, bg="#eb8334", width=27, font='Arial 18').place(
+    bordermode=OUTSIDE, x=140, y=285)
 
-entra_fr7 = Button(fr7, text=" Excluir ", font=('Mongolian Baiti', '15'), bg="#eb8334",
-                   fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=300, y=455)
+date_fr8 = Entry(fr8, bg="#eb8334", width=20, font='Arial 18').place(
+    bordermode=OUTSIDE, x=596, y=285)
 
+civil_fr8 = Entry(fr8, bg="#eb8334", width=24, font='Arial 18').place(
+    bordermode=OUTSIDE, x=178, y=339)
+
+tel_fr8 = Entry(fr8, bg="#eb8334", width=20, font='Arial 18').place(
+    bordermode=OUTSIDE, x=596, y=339)
+
+logradouro_fr8 = Entry(fr8, bg="#eb8334", width=24, font='Arial 18').place(
+    bordermode=OUTSIDE, x=178, y=391)
+
+num_fr8 = Entry(fr8, bg="#eb8334", width=23, font='Arial 18').place(
+    bordermode=OUTSIDE, x=558, y=391)
+
+bairro_fr8 = Entry(fr8, bg="#eb8334", width=27, font='Arial 18').place(
+    bordermode=OUTSIDE, x=140, y=443)
+
+city_fr8 = Entry(fr8, bg="#eb8334", width=22, font='Arial 18').place(
+    bordermode=OUTSIDE, x=570, y=442)
+
+email_fr8 = Entry(fr8, bg="#eb8334", width=27, font='Arial 18').place(
+    bordermode=OUTSIDE, x=140, y=500)
+
+passw_fr8 = Entry(fr8, bg="#eb8334", width=22, font='Arial 18').place(
+    bordermode=OUTSIDE, x=570, y=500)
+
+cadastrar_fr8 = Button(fr8,  text=" Cadastrar ", bg="#eb8334", fg="#fff", font="Arial 15",
+                       width=18, height=2).place(bordermode=OUTSIDE, x=653, y=150)
 
 # falta criar tela de funcionalidade de usuario deposito saque transferencia e extrato
-# falta criar tela de exclusão de usuario da linha do funcionario
-# falta criar tela de criação de conta user pela linha do funcionario
-# falta criar tela de troca de informações de usuario para ele mesmo
+# falta criar tela de troca de informações do funcionario para ele mesmo
 
-# No total falta a criação de 7 telas de funcionalidade fora troca de frames e funções
+# No total falta a criação de 5 telas de funcionalidade fora troca de frames e funções
 
 root.mainloop()
