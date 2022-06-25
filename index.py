@@ -1,3 +1,4 @@
+from tarfile import ExtractError
 from tkinter import *
 from turtle import width
 from tkhtmlview import HTMLLabel
@@ -146,7 +147,7 @@ root.config(bg='#8a37cc')
 # uf_fr4 = HTMLLabel(fr4, html="<p style ='color:#f5f5f5;font:Mongolian Baiti;'>UF: Minas Gerais </p>",
 #                      background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=470)
 
-#---------------------- Frame 4 / Home Funcionario ----------------------#
+#---------------------- Frame 5 / Usuario ----------------------#
 
 # fr5 = LabelFrame(root).grid()
 
@@ -159,7 +160,7 @@ root.config(bg='#8a37cc')
 # cadastre_fr5 = Button(fr5, text=" Cadastre-se ", bg="#eb8334", fg="#fff",
 #                       width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
 
-# logar_fr5 = Button(fr5, text=" Excluir Conta ", bg="#eb8334", fg="#fff",
+# excluir_fr5 = Button(fr5, text=" Excluir Conta ", bg="#eb8334", fg="#fff",
 #                    width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
 
 # deposito_fr5 = Button(fr5, text=" Deposito ", font=('Mongolian Baiti', '15'), bg="#eb8334",
@@ -197,5 +198,47 @@ root.config(bg='#8a37cc')
 
 # saldo_fr5 = HTMLLabel(fr5, html="<p style ='color:#f5f5f5;font:Mongolian Baiti;'> Saldo do user </p>",
 #                       background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=470)
+
+#---------------------- Frame 6 / Home funcionario/ cadastrar usuario ----------------------#
+
+fr6 = LabelFrame(root).grid()
+
+Title_fr6 = HTMLLabel(fr6, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Home Funcionario</h1>",
+                      background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=15)
+
+voltar_fr6 = Button(fr6, text=" Voltar ", bg="#eb8334", fg="#fff",
+                    width=18, height=2).place(bordermode=OUTSIDE, x=480, y=28)
+
+cadastre_fr6 = Button(fr6, text=" Cadastre-se ", bg="#eb8334", fg="#fff",
+                      width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
+
+logar_fr6 = Button(fr6, text=" Login Usuario ", bg="#eb8334", fg="#fff",
+                   width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
+
+about1_fr6 = HTMLLabel(fr6, html="<h2 style ='color:#f5f5f5;font:Mongolian Baiti;'>Excluir Usúario</h2>",
+                       background='#8a37cc').place(bordermode=OUTSIDE, x=450, y=150)
+
+form_fr6 = HTMLLabel(fr6, html="<img src='xxx.png'>", width=112, height=27,
+                     background='#8a37cc').place(bordermode=OUTSIDE, x=200, y=120)
+
+cpf_user_fr6 = Entry(fr6, bg="#eb8334", width=17, font='Arial 25').place(
+    bordermode=OUTSIDE, x=314, y=266)
+
+passw_func__fr6 = Entry(fr6, bg="#eb8334", width=17, font='Arial 25').place(
+    bordermode=OUTSIDE, x=314, y=379)
+
+show_fr6 = Button(fr6, text='👁', font=('Mongolian Baiti', "18", "bold"), bg='#eb8334', fg='#fff').place(
+    bordermode=OUTSIDE, x=627, y=378)
+
+entra_fr6 = Button(fr6, text=" Entrar ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+                   fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=330, y=455)
+
+
+# falta criar tela de funcionalidade de usuario deposito saque transferencia e extrato
+# falta criar tela de exclusão de usuario da linha do funcionario
+# falta criar tela de criação de conta user pela linha do funcionario
+# falta criar tela de troca de informações de usuario para ele mesmo
+
+# No total falta a criação de 7 telas de funcionalidade fora troca de frames e funções
 
 root.mainloop()
