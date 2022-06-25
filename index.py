@@ -394,10 +394,55 @@ root.config(bg='#8a37cc')
 #                        width=18, height=2).place(bordermode=OUTSIDE, x=653, y=150)
 
 
+# ---------------------- Frame 10 / Home Usuario/ Deposito ----------------------#
 
-# falta criar tela de funcionalidade de usuario deposito saque transferencia e extrato
-# falta criar tela de troca de informações do funcionario para ele mesmo
+fr10 = LabelFrame(root).grid()
 
-# No total falta a criação de 5 telas de funcionalidade fora troca de frames e funções
+Title_fr10 = HTMLLabel(fr10, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Home Usuario</h1>",
+                       background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=15)
+
+voltar_fr10 = Button(fr10, text=" Voltar ", bg="#eb8334", fg="#fff",
+                     width=18, height=2).place(bordermode=OUTSIDE, x=480, y=28)
+
+logout_fr10 = Button(fr10, text=" Logout ", bg="#eb8334", fg="#fff",
+                     width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
+
+excluir_fr10 = Button(fr10, text=" Excluir Conta  ", bg="#eb8334", fg="#fff",
+                      width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
+
+home_fr10 = Button(fr10, text=" Home ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+                   fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=150)
+
+saque_fr10 = Button(fr10, text=" Saque ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+                    fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=250)
+
+trasferencia_fr10 = Button(fr10, text=" Trasferencia ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+                           fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=350)
+
+extrato_fr10 = Button(fr10, text=" Extrato ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+                      fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=450)
+
+form_fr10 = HTMLLabel(fr10, html="<img src='fr10.png'>", width=112, height=27,
+                      background='#8a37cc').place(bordermode=OUTSIDE, x=400, y=143)
+
+value_dep_fr10 = Entry(fr10, bg="#eb8334", width=17, font='Arial 25').place(
+    bordermode=OUTSIDE, x=446, y=260)
+
+passw_fr10 = Entry(fr10, bg="#eb8334", width=17, font='Arial 25').place(
+    bordermode=OUTSIDE, x=446, y=372)
+
+show_fr10 = Button(fr10, text='👁', font=('Mongolian Baiti', "18", "bold"), bg='#eb8334', fg='#fff').place(
+    bordermode=OUTSIDE, x=765, y=370)
+
+
+depositar_fr10 = Button(fr10, text=" Depositar", font=('Mongolian Baiti', '15'), bg="#eb8334",
+                        fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=465, y=455)
+
+
+# Depositop saque transferencia e extrato sequencia
+
+# falta criar tela de funcionalidade de usuario saque transferencia e extrato
+
+# No total falta a criação de 3 telas de funcionalidade fora troca de frames e funções
 
 root.mainloop()
