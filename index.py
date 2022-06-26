@@ -7,26 +7,30 @@ root.geometry("904x600+200+50")
 root.title("Teste HTML")
 root.config(bg='#8a37cc')
 
+# Observação -- 
+# Começar a criar troca de telas e funções de tratamento de dados
+# Frame 1 ao frame 13 foram criados e estilizados no dia 25/06/2022 - horas gastas nesse projeto: Aproximadamente 13 hoeras
+
 # creditos
 # <a href='https://br.freepik.com/fotos-vetores-gratis/fachada-de-vidro'>Fachada de vidro foto criado por diana.grytsku - br.freepik.com</a>
 
 
 #---------------------- Frame 1 / index ----------------------#
 
-# fr1 = LabelFrame(root).grid()
+fr1 = LabelFrame(root).grid()
 
-# Title_fr1 = HTMLLabel(fr1, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Banco Farefaith</h1>",background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=15)
+Title_fr1 = HTMLLabel(fr1, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Banco Farefaith</h1>",background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=15)
 
-# cadastre_fr1 = Button(fr1, text=" Cadastre-se ", bg="#eb8334", fg="#fff",width=18, height=2).place(bordermode=OUTSIDE, x=480, y=28)
-# logar_fr1 = Button(fr1, text=" Faça Login ", bg="#eb8334", fg="#fff",width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
-# func_fr1 = Button(fr1, text=" Área funcionario ", bg="#eb8334", fg="#fff",width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
+cadastre_fr1 = Button(fr1, text=" Cadastre-se ", bg="#eb8334", fg="#fff",width=18, height=2).place(bordermode=OUTSIDE, x=480, y=28)
+logar_fr1 = Button(fr1, text=" Faça Login ", bg="#eb8334", fg="#fff",width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
+func_fr1 = Button(fr1, text=" Área funcionario ", bg="#eb8334", fg="#fff",width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
 
-# photo_fr1 = HTMLLabel(fr1, html="<img src='fr1.png'>", width=112,background='#8a37cc').place(bordermode=OUTSIDE, x=0, y=100)
+photo_fr1 = HTMLLabel(fr1, html="<img src='fr1.png'>", width=112,background='#8a37cc').place(bordermode=OUTSIDE, x=0, y=100)
 
-# about1_fr1 = HTMLLabel(fr1, html="<h2 style ='color:#f5f5f5;font:Mongolian Baiti;'>Quem Somos?</h2>", background='#8a37cc',foreground='#f5f5f5').place(bordermode=OUTSIDE, x=320, y=360)
-# about2_fr1 = HTMLLabel(fr1, html="<p style ='color:#f5f5f5;font:Mongolian Baiti; font-size:15px;'>Lorem ipsum dolor sit amet, consectetur adipiscing elit\
-# Aenean volutpat neque mi, at finibus felis volutpat ut\
-# Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>",background='#8a37cc').place(bordermode=OUTSIDE, x=120, y=420)
+about1_fr1 = HTMLLabel(fr1, html="<h2 style ='color:#f5f5f5;font:Mongolian Baiti;'>Quem Somos?</h2>", background='#8a37cc',foreground='#f5f5f5').place(bordermode=OUTSIDE, x=320, y=360)
+about2_fr1 = HTMLLabel(fr1, html="<p style ='color:#f5f5f5;font:Mongolian Baiti; font-size:15px;'>Lorem ipsum dolor sit amet, consectetur adipiscing elit\
+Aenean volutpat neque mi, at finibus felis volutpat ut\
+Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>",background='#8a37cc').place(bordermode=OUTSIDE, x=120, y=420)
 
 
 #---------------------- Frame 2 / Cadastro user ----------------------#
@@ -534,49 +538,49 @@ root.config(bg='#8a37cc')
 
 # ---------------------- Frame 13 / Home Usuario/ Extrato ----------------------#
 
-fr13 = LabelFrame(root).grid()
+# fr13 = LabelFrame(root).grid()
 
-Title_fr13 = HTMLLabel(fr13, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Home Usuario</h1>",
-                       background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=15)
+# Title_fr13 = HTMLLabel(fr13, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Home Usuario</h1>",
+#                        background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=15)
 
-voltar_fr13 = Button(fr13, text=" Voltar ", bg="#eb8334", fg="#fff",
-                     width=18, height=2).place(bordermode=OUTSIDE, x=480, y=28)
+# voltar_fr13 = Button(fr13, text=" Voltar ", bg="#eb8334", fg="#fff",
+#                      width=18, height=2).place(bordermode=OUTSIDE, x=480, y=28)
 
-logout_fr13 = Button(fr13, text=" Logout ", bg="#eb8334", fg="#fff",
-                     width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
+# logout_fr13 = Button(fr13, text=" Logout ", bg="#eb8334", fg="#fff",
+#                      width=18, height=2).place(bordermode=OUTSIDE, x=620, y=28)
 
-excluir_fr13 = Button(fr13, text=" Excluir Conta  ", bg="#eb8334", fg="#fff",
-                      width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
+# excluir_fr13 = Button(fr13, text=" Excluir Conta  ", bg="#eb8334", fg="#fff",
+#                       width=18, height=2).place(bordermode=OUTSIDE, x=760, y=28)
 
-deposito_fr13 = Button(fr13, text=" Deposito ", font=('Mongolian Baiti', '15'), bg="#eb8334",
-                       fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=150)
+# deposito_fr13 = Button(fr13, text=" Deposito ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+#                        fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=150)
 
-saque_fr13 = Button(fr13, text=" Saque ", font=('Mongolian Baiti', '15'), bg="#eb8334",
-                    fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=250)
+# saque_fr13 = Button(fr13, text=" Saque ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+#                     fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=250)
 
-trasferencia_fr13 = Button(fr13, text=" Transferencia  ", font=('Mongolian Baiti', '15'), bg="#eb8334",
-                   fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=350)
+# trasferencia_fr13 = Button(fr13, text=" Transferencia  ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+#                    fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=350)
 
-home_fr13 = Button(fr13, text=" Home ", font=('Mongolian Baiti', '15'), bg="#eb8334",
-                      fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=450)
+# home_fr13 = Button(fr13, text=" Home ", font=('Mongolian Baiti', '15'), bg="#eb8334",
+#                       fg="#fff", width=24, height=2).place(bordermode=OUTSIDE, x=50, y=450)
 
-form_fr13 = HTMLLabel(fr13, html="<img src='fr13.png'>", width=112, height=27,
-                      background='#8a37cc').place(bordermode=OUTSIDE, x=390, y=110)
+# form_fr13 = HTMLLabel(fr13, html="<img src='fr13.png'>", width=112, height=27,
+#                       background='#8a37cc').place(bordermode=OUTSIDE, x=390, y=110)
 
-value_ext_fr13 = Entry(fr13, bg="#eb8334", width=17, font='Arial 25').place(
-    bordermode=OUTSIDE, x=427, y=213)
+# value_ext_fr13 = Entry(fr13, bg="#eb8334", width=17, font='Arial 25').place(
+#     bordermode=OUTSIDE, x=427, y=213)
 
-hist_1_fr13 = Label(fr13, bg="#eb8334", width=16, font='Arial 25').place(
-    bordermode=OUTSIDE, x=425, y=309)
+# hist_1_fr13 = Label(fr13, bg="#eb8334", width=16, font='Arial 25').place(
+#     bordermode=OUTSIDE, x=425, y=309)
 
-his_1_fr13 = Label(fr13, bg="#eb8334", width=16, font='Arial 25').place(
-    bordermode=OUTSIDE, x=425, y=380)
+# his_1_fr13 = Label(fr13, bg="#eb8334", width=16, font='Arial 25').place(
+#     bordermode=OUTSIDE, x=425, y=380)
 
-his_1_fr13 = Label(fr13, bg="#eb8334", width=16, font='Arial 25').place(
-    bordermode=OUTSIDE, x=425, y=445)
+# his_1_fr13 = Label(fr13, bg="#eb8334", width=16, font='Arial 25').place(
+#     bordermode=OUTSIDE, x=425, y=445)
 
-show_fr13 = Button(fr13, text='👁', font=('Mongolian Baiti', "18", "bold"), bg='#eb8334', fg='#fff').place(
-    bordermode=OUTSIDE, x=745, y=212)
+# show_fr13 = Button(fr13, text='👁', font=('Mongolian Baiti', "18", "bold"), bg='#eb8334', fg='#fff').place(
+#     bordermode=OUTSIDE, x=745, y=212)
 
 # Creio eu q todas as telas foram criadas 
 
