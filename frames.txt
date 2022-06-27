@@ -1,0 +1,18 @@
+Frame 1 - Home principal/Index
+Frame 2 - Cadastro User por User
+Frame 3 - Login do User 
+Frame 4 - Home do funcionario/index
+Frame 5 - Home do Usuario/ Index
+Frame 6 - Home funcionario/ Excluir usuario
+Frame 7 - Home Usuario/ Excluir usuario
+Frame 8 - Home Funcionaio/ Cadastrar usuario 
+Frame 9 - Home Funcionaio/ Mudar dados pessoais
+Framq 10 - Home Usuario/ Deposito 
+Frame 11 - Home Usuario/ Saque
+Frame 12 - Home Usuario/ Transferencia
+Frame 13 - Home Usuario/ Extrato
+Frame 14 - Home Funcionario/ login 
+
+
+
+Frames troca pronto 1/ 2/

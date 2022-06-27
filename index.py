@@ -15,9 +15,10 @@ root.config(bg='#8a37cc')
 # <a href='https://br.freepik.com/fotos-vetores-gratis/fachada-de-vidro'>Fachada de vidro foto criado por diana.grytsku - br.freepik.com</a>
 
 #---------------------- Frame 0 / Gambiarra ----------------------#
-fr0 = LabelFrame(root).grid()
-Title_fr1 = HTMLLabel(fr0, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>hum</h1>",background='#8a37cc').place(bordermode=OUTSIDE, x=45, y=15)
-logar_fr1 = Button(fr0, text=" Sistema", bg="#eb8334", fg="#fff",width=18, height=2, command= lambda: [fr0.grid_remove(), fr1.grid()]).place(bordermode=OUTSIDE, x=620, y=28)
+fr0 = LabelFrame(root)
+#.grid()
+Title_fr0 = HTMLLabel(fr0, html="<h1 style ='color:#f5f5f5;font:Mongolian Baiti;'>Entrar no sistema</h1>",background='#8a37cc').place(bordermode=OUTSIDE, x=280, y=190)
+logar_fr0 = Button(fr0, text=" Sistema", bg="#eb8334", fg="#fff",width=18, height=2, command= lambda:  [fr0.grid_remove(), fr1.grid()]).place(bordermode=OUTSIDE, x=385, y=300)
 
 
 #---------------------- Frame 1 / index ----------------------#
@@ -587,7 +588,7 @@ show_fr13 = Button(fr13, text='👁', font=('Mongolian Baiti', "18", "bold"), bg
 
 # ---------------------- Frame 14 / Home Funcionario/ Login ----------------------#
 
-fr14 = LabelFrame(root)
+fr14 = LabelFrame(root).grid()
 
 # Creio eu q todas as telas foram criadas 
 
